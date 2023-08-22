@@ -146,6 +146,10 @@ body, html {
     color: var(--asparagus);
 }
 
+.sub-title {
+    color: var(--dark-blue);
+}
+
 /* Contact page */
 #contactLogo {
     height: 130px;
@@ -169,6 +173,7 @@ body, html {
     background-color: var(--olivine);
     color: var(--dark-blue);
 }
+
 /* About page */
 
 .about-section-subtitle {
@@ -184,7 +189,7 @@ body, html {
 }
 
 
-/* Products page */
+/* Services page */
 
 .img-thumbnail:hover {
     opacity: 0.7;
