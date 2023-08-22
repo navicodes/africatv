@@ -1,0 +1,213 @@
+/*
+    Africa TV Culture (T) Ltd 
+    Custom stylesheet
+    Developed by Navilindo AM
+*/
+
+/* custom colors */
+
+:root {
+    --forest-green: #478936ff;
+    --olivine: #ABC296ff;
+    --brunswick-green: #0C4C3Eff;
+    --asparagus: #65943Dff;
+    --light: #f8f9fa;
+}
+
+/* body */
+body, html {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* header */
+#topLogo {
+    height: 30px;
+    width: auto;
+}
+
+.nav-link {
+    color: var(--forest-green) !important;
+}
+
+.abt-btn-link > a {
+    color: var(--brunswick-green);
+    text-decoration: none;
+}
+
+#abtLink {
+    text-decoration: none;
+}
+
+#homeBtn {
+    background-color: var(--olivine);
+    color: var(--brunswick-green);
+}
+
+.abt-btn-link :hover {
+    color: var(--brunswick-green);
+    opacity: 50%;
+}
+.ft-nav-link > a {
+    text-decoration: none;
+    color: var(--forest-green);
+}
+
+.ft-nav-link :hover {
+    color: var(--brunswick-green);
+}
+
+.footer-social-icon {
+    color: var(--forest-green);
+}
+
+.footer-social-icon :hover {
+    color: var(--forest-green);
+}
+
+
+/* page title */
+.page-title {
+    color: var(--olivine);
+}
+/* footer */
+
+#footerLogo {
+    height: 80px;
+    width: auto;
+}
+
+#footerContent {
+    /* background-color: var(--asparagus); */
+    background-color: var(--olivine);
+    color: var(--brunswick-green);
+}
+
+.footer-link {
+    color: var(--brunswick-green);
+    text-decoration: none;
+}
+
+.footer-link :hover {
+    opacity: 50%;
+}
+
+#copyleft {
+    background-color: var(--brunswick-green);
+    color: var(--olivine);
+}
+
+.copyleft-link {
+    color: var(--olivine);
+    text-decoration: none;
+}
+
+/* home page */
+
+.jumbotron-carousel {
+    position: relative;
+    background-color: var(--brunswick-green);
+    background-blend-mode: multiply;
+}
+
+.jumbo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.jumbo-content, .jumbo-new {
+    /* z-index: 2;
+    position: relative; */
+    color: var(--olivine);
+}
+
+#prod {
+    color: var(--asparagus);
+}
+
+.jumbo-icon {
+    align-content: center;
+    color: var(--asparagus);
+}
+
+.icon-square {
+    background-color: var(--light);
+    opacity: 100%;
+    border: var(--brunswick-green);
+}
+
+.home-icon {
+    color: var(--olivine);
+    opacity: 100%;
+}
+
+.feats {
+    color: var(--asparagus);
+}
+
+/* Contact page */
+#contactLogo {
+    height: 130px;
+    justify-content: center;
+}
+
+#infoContact {
+    background-color: #f8f9fa;
+    fill-opacity: 15%;
+    border-top: var(--olivine) solid 3px;
+    border-bottom: var(--olivine) solid 3px;
+    color: var(--brunswick-green);
+}
+
+#contactForm {
+    border-top: var(--olivine) solid 3px;
+    border-bottom: var(--olivine) solid 3px;
+}
+
+#contactBtn {
+    background-color: var(--olivine);
+    color: var(--brunswick-green);
+}
+/* About page */
+
+.about-section-subtitle {
+    color: var(--forest-green);
+}
+
+.page-subtitle {
+    color: var(--asparagus);
+}
+
+#abtGlance, #abtValues, #contactSub {
+    font-weight: 800;
+}
+
+
+/* Products page */
+
+.img-thumbnail:hover {
+    opacity: 0.7;
+    border: 1px solid var(--forest-green);
+}
+
+.hover-text {
+    display: none;
+}
+
+
+
+/* home animation  */
+@keyframes slide {
+    0% {
+      background-image: url(../images/imgs/tea-farm.png);
+    }
+    50% {
+      background-image: url(../images/imgs/beans.png);
+    }
+    100% {
+      background-image: url(../images/imgs/sunflower.png);
+    }
+  }
