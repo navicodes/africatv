@@ -177,6 +177,11 @@ body, html {
     color: white;
     font-size: large;
 }
+
+.serv-icon {
+    font-size: 1.5rem;
+    color: var(--light-blue);
+}
 /* Contact page */
 #contactLogo {
     height: 130px;
