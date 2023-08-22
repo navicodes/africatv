@@ -74,6 +74,11 @@ body, html {
     width: auto;
 }
 
+.ft-motto {
+    color : var(--light-blue);
+    font-weight: 600;
+}
+
 #footerContent {
     /* background-color: var(--asparagus); */
     background-color: var(--olivine);
