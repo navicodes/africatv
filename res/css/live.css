@@ -1,1 +1,47 @@
-#app{min-height:100vh;background:#f5f5f5 url(/img/bgOrnament.svg) no-repeat center right -35vw;background-size:50vw;padding-top:50px}#app .live-block{background:hsla(0,0%,100%,.7);border-radius:10px;padding:20px;box-shadow:0 0 15px -10px #000;margin-bottom:100px}#app .live-block #live-box{position:relative;background:#ddd;border-radius:6px;color:rgba(0,0,0,.8);text-shadow:0 1px 0 #fff;line-height:0;margin:50px -22px -20px}#app .live-block #live-box:after,#app .live-block #live-box:before{z-index:-1;position:absolute;content:"";bottom:15px;left:10px;width:50%;top:80%;background:rgba(0,0,0,.7);box-shadow:0 25px 17px rgba(0,0,0,.7);transform:rotate(-3deg);z-index:1}#app .live-block #live-box:after{transform:rotate(3deg);right:10px;left:auto}#app .live-block #live-box #live-stream{width:100%;border-radius:6px;overflow:hidden;height:500px;z-index:2;position:relative;background:#f1f3f4;box-shadow:0 0 10px rgba(0,0,0,.1);border:1px solid #e5e5e5;border-bottom:none}
+#app
+{
+    min-height:100vh;
+    background:#f5f5f5 url(/img/bgOrnament.svg) no-repeat center right -35vw;
+    background-size:50vw;
+    padding-top:50px
+}
+#app .live-block
+{
+    background:hsla(0,0%,100%,.7);
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 0 15px -10px #000;
+    margin-bottom:100px
+}
+#app .live-block #live-box
+{
+    position:relative;
+    background:#ddd;
+    border-radius:6px;
+    color:rgba(0,0,0,.8);
+    text-shadow:0 1px 0 #fff;
+    line-height:0;
+    margin:50px -22px -20px
+}
+#app .live-block #live-box:after,#app .live-block #live-box:before
+{
+    z-index:-1;
+    position:absolute;content:"";bottom:15px;left:10px;width:50%;top:80%;
+    background:rgba(0,0,0,.7);
+    box-shadow:0 25px 17px rgba(0,0,0,.7);
+    transform:rotate(-3deg);z-index:1
+}
+#app .live-block #live-box:after
+{
+    transform:rotate(3deg);right:10px;left:auto
+}
+#app .live-block #live-box #live-stream
+{
+    width:100%;border-radius:6px;
+    overflow:hidden;height:500px;
+    z-index:2;position:relative;
+    background:#f1f3f4;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    border:1px solid #e5e5e5;
+    border-bottom:none
+}
