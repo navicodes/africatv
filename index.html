@@ -160,5 +160,24 @@
     <!-- WhatsApp btn -->
     <script src="./res/js/whatsapp-btn.js"></script>
     <script src="./res/js/custom-carousel.js"></script>
-    
+
+    <script>
+        var link = 'http://africatv.live.net.sa:1935/live/africatv2/playlist.m3u8';
+        var liveStream = document.getElementById('live-stream');
+        var hls = new Hls();
+        if (Hls.isSupported()) {
+            hls.loadSource(link);
+            hls.attachMedia(liveStream);
+            hls.on(Hls.Events.MANIFEST_PARSED, function () {
+                liveStream.play();
+            });
+        } else if (liveStream.canPlayType('application/vnd.apple.mpegurl')) {
+            liveStream.src = link;
+            liveStream.addEventListener('loadedmetadata', function () {
+                liveStream.play();
+            });
+        }
+
+    </script>
+
 </body>
