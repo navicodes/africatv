@@ -91,11 +91,11 @@ body, html {
 
 #copyleft {
     background-color: var(--dark-blue);
-    color: var(--olivine);
+    color: var(--light);
 }
 
 .copyleft-link {
-    color: var(--olivine);
+    color: var(--light);
     text-decoration: none;
 }
 
