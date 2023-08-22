@@ -7,10 +7,12 @@
 /* custom colors */
 
 :root {
-    --forest-green: #478936ff;
+    --forest-green : #478936ff;
     --olivine: #ABC296ff;
+    --dark-blue : #213e67;
+    --light-blue : #517ab7;
     --brunswick-green: #0C4C3Eff;
-    --asparagus: #65943Dff;
+    --ligh-blue: #65943Dff;
     --light: #f8f9fa;
 }
 
@@ -26,11 +28,11 @@ body, html {
 }
 
 .nav-link {
-    color: var(--forest-green) !important;
+    color: var(--light-blue) !important;
 }
 
 .abt-btn-link > a {
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
     text-decoration: none;
 }
 
@@ -40,28 +42,28 @@ body, html {
 
 #homeBtn {
     background-color: var(--olivine);
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
 }
 
 .abt-btn-link :hover {
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
     opacity: 50%;
 }
 .ft-nav-link > a {
     text-decoration: none;
-    color: var(--forest-green);
+    color: var(--light-blue);
 }
 
 .ft-nav-link :hover {
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
 }
 
 .footer-social-icon {
-    color: var(--forest-green);
+    color: var(--light-blue);
 }
 
 .footer-social-icon :hover {
-    color: var(--forest-green);
+    color: var(--light-blue);
 }
 
 
@@ -79,11 +81,11 @@ body, html {
 #footerContent {
     /* background-color: var(--asparagus); */
     background-color: var(--olivine);
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
 }
 
 .footer-link {
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
     text-decoration: none;
 }
 
@@ -92,7 +94,7 @@ body, html {
 }
 
 #copyleft {
-    background-color: var(--brunswick-green);
+    background-color: var(--dark-blue);
     color: var(--olivine);
 }
 
@@ -105,7 +107,7 @@ body, html {
 
 .jumbotron-carousel {
     position: relative;
-    background-color: var(--brunswick-green);
+    background-color: var(--dark-blue);
     background-blend-mode: multiply;
 }
 
@@ -136,7 +138,7 @@ body, html {
 .icon-square {
     background-color: var(--light);
     opacity: 100%;
-    border: var(--brunswick-green);
+    border: var(--dark-blue);
 }
 
 .home-icon {
@@ -159,7 +161,7 @@ body, html {
     fill-opacity: 15%;
     border-top: var(--olivine) solid 3px;
     border-bottom: var(--olivine) solid 3px;
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
 }
 
 #contactForm {
@@ -169,12 +171,12 @@ body, html {
 
 #contactBtn {
     background-color: var(--olivine);
-    color: var(--brunswick-green);
+    color: var(--dark-blue);
 }
 /* About page */
 
 .about-section-subtitle {
-    color: var(--forest-green);
+    color: var(--light-blue);
 }
 
 .page-subtitle {
@@ -190,7 +192,7 @@ body, html {
 
 .img-thumbnail:hover {
     opacity: 0.7;
-    border: 1px solid var(--forest-green);
+    border: 1px solid var(--light-blue);
 }
 
 .hover-text {
