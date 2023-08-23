@@ -94,6 +94,11 @@ body, html {
     opacity: 50%;
 }
 
+.get-on-google > img{
+    height: 50px;
+    width: auto;
+}
+
 #copyleft {
     background-color: var(--dark-blue);
     color: var(--light);
