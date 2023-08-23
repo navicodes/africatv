@@ -99,6 +99,11 @@ body, html {
     width: auto;
 }
 
+#google-play {
+    height: 50px;
+    width: auto;
+}
+
 #copyleft {
     background-color: var(--dark-blue);
     color: var(--light);
